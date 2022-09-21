@@ -421,7 +421,7 @@ hr {
     color: grey;
 }
 
-.table > tbody > tr > td{
+.table{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
