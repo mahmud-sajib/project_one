@@ -420,3 +420,8 @@ hr {
 .copyright-text {
     color: grey;
 }
+
+.table > tbody > tr > td{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
