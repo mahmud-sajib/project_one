@@ -11,20 +11,20 @@ body, span {
     /*box-shadow: 0 5px 16px rgba(0, 0, 0, 0.12), 0 0px 14px rgba(0, 0, 0, 0.24);
 */
     box-shadow: 0 5px 16px rgba(0, 0, 0, 0.15), 0 0px 14px rgba(0, 0, 0, 0.15);
-    max-width: 1024px;
+    max-width: 1170px;
     margin: 0 auto;
     z-index: 500;
     padding: 20px 0;
 }
 
 .container {
-    width: 90%;
+    width: 95%;
 }
 
 h1 {
     font-family: 'Lato', sans-serif;
     font-weight: 100;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 h2,
@@ -38,6 +38,10 @@ h6 {
 
 h2 {
     margin-top: 0px;
+}
+
+.table > tbody > tr > td{
+    vertical-align: middle;
 }
 
 a {
@@ -57,7 +61,7 @@ span,
 }
 
 section {
-    margin: 50px 0;
+    margin: 70px 0;
 }
 
 .section-image {
@@ -129,9 +133,10 @@ hr {
 
 .navbar {
     position: relative;
-    min-height: 35px;
+    min-height: 55px;
     border: 1px solid transparent;
     margin-bottom: 0 !important;
+    padding: 20px 0;
 }
 
 .navbar-nav> li {
@@ -242,6 +247,11 @@ hr {
     width: 50px;
     height: 50px;
     margin: 10px auto;
+}
+
+.vcenter {
+    display: flex;
+    align-items: center;
 }
 
 
@@ -394,9 +404,11 @@ hr {
 
 /************************************************Teaching Section**********************************************/
 
+/* 
 .course-overview {
-    /* font-family: 'Crimson Text', serif; */
-}
+     font-family: 'Crimson Text', serif; 
+} 
+*/
 
 .teaching-section .course-date p {
     font-size: 15px;
