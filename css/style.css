@@ -1,366 +1,367 @@
 /********************************Global Styles******************************/
 
-body, span {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    width: 100%;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Quicksand:wght@500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  width: 100%;
+}
+
+strong {
+  font-family: "Quicksand", sans-serif;
 }
 
 .site-wrap {
-    background-color: #fff;
-    /*box-shadow: 0 5px 16px rgba(0, 0, 0, 0.12), 0 0px 14px rgba(0, 0, 0, 0.24);
+  background-color: #fff;
+  /*box-shadow: 0 5px 16px rgba(0, 0, 0, 0.12), 0 0px 14px rgba(0, 0, 0, 0.24);
 */
-    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.15), 0 0px 14px rgba(0, 0, 0, 0.15);
-    max-width: 1170px;
-    margin: 0 auto;
-    z-index: 500;
-    padding: 20px 0;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.15), 0 0px 14px rgba(0, 0, 0, 0.15);
+  max-width: 1170px;
+  margin: 0 auto;
+  z-index: 500;
+  padding: 20px 0;
 }
 
 .container {
-    width: 95%;
+  width: 95%;
 }
 
 h1 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 100;
-    /* text-transform: uppercase; */
+  font-family: "Quicksand", sans-serif;
+  font-weight: 100;
+  /* text-transform: uppercase; */
 }
 
 h2,
 h3,
 h5,
 h6 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 h2 {
-    margin-top: 0px;
+  margin-top: 0px;
+  font-size: 25px;
 }
 
-.table > tbody > tr > td{
-    vertical-align: middle;
+.table > tbody > tr > td {
+  vertical-align: middle;
+}
+
+.table-bordered > tbody > tr > td {
+  border: 2px solid #ddd;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 p,
 .bio-description,
 span,
 .copyright-tex,
-.course-overview
-{
-    font-size: 19px;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    font-weight: 300;
+.course-overview {
+  font-size: 19px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 300;
 }
 
 section {
-    margin: 70px 0;
+  margin: 70px 0;
 }
 
 .section-image {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 8px;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 8px;
 }
 
 .blue-color {
-    color: #1f407a;
+  color: #1f407a;
 }
 
 table {
-    font-size: 15px;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    font-family: 'Crimson Text', serif;
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 1px;
 }
 
 hr {
-    border: 1px solid #DDD;
-    margin-top: 0px;
+  border: 1px solid #ddd;
+  margin-top: 0px;
 }
 
 .pb30 {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .padding-none {
-    padding: 0 !important;
+  padding: 0 !important;
 }
-
 
 /**************haeder nav*********************/
 
 .logo-area {
-    width: 100%;
-    margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .logo-area a {
-    font-size: 60px;
+  font-size: 60px;
 }
 
 .logo-area a:hover {
-    color: #1f407a;
-    text-decoration: none;
+  color: #1f407a;
+  text-decoration: none;
 }
 
 #logo-main {
-    display: block;
-    margin: 20px auto;
-    padding-bottom: 50px;
+  display: block;
+  margin: 20px auto;
+  padding-bottom: 50px;
 }
 
 #navbar-primary.navbar-default {
-    background: white;
-    border-radius: 0;
-    /*box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19), 0 1px 8px rgba(0, 0, 0, 0.23) !important;*/
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 1px 8px rgba(0, 0, 0, 0.15) !important;
+  background: white;
+  border-radius: 0;
+  /*box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19), 0 1px 8px rgba(0, 0, 0, 0.23) !important;*/
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 1px 8px rgba(0, 0, 0, 0.15) !important;
 }
 
 .navbar-nav {
-    width: 100%;
-    text-align: center;
-    font-weight: 400;
-    background-color: white;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  background-color: white;
 }
 
 .navbar {
-    position: relative;
-    min-height: 55px;
-    border: 1px solid transparent;
-    margin-bottom: 0 !important;
-    padding: 20px 0;
+  position: relative;
+  min-height: 55px;
+  border: 1px solid transparent;
+  margin-bottom: 0 !important;
+  padding: 20px 0;
 }
 
-.navbar-nav> li {
-    display: inline-block;
-    float: none;
+.navbar-nav > li {
+  display: inline-block;
+  float: none;
 }
 
 .navbar-nav > li > a {
-    padding-left: 20px;
-    padding-right: 20px;
-    text-transform: uppercase;
-    color: black !important;
-    padding-top: 7px;
-    padding-bottom: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+  color: black !important;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 .three-icons {
-    padding-left: 20px;
-    padding-right: 20px;
-    text-transform: uppercase;
-    color: black !important;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    font-weight: 400;
-    font-size: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+  color: black !important;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .navbar-nav > li > a {
-    border: none;
-    color: #666;
+  border: none;
+  color: #666;
 }
 
 .navbar-nav > li.active > a {
-    border: none;
-    color: black;
-    background: transparent;
+  border: none;
+  color: black;
+  background: transparent;
 }
 
 .navbar-nav > li > a:hover {
-    color: grey !important;
+  color: grey !important;
 }
 
 .navbar-nav > li > a::after {
-    content: "";
-    background: #1f407a;
-    height: 2px;
-    position: absolute;
-    width: 100%;
-    left: 0px;
-    top: 0px;
-    transition: all 250ms ease 0s;
-    transform: scale(0);
+  content: "";
+  background: #1f407a;
+  height: 2px;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  transition: all 250ms ease 0s;
+  transform: scale(0);
 }
 
 .navbar-nav > li.active > a::after,
 .navbar-nav > li:hover > a::after {
-    transform: scale(1);
+  transform: scale(1);
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .navbar-toggle {
-    left: 50%;
-    margin-left: -20px;
-    float: none;
-    border: 2px solid #F4BF4D !important;
-    margin-bottom: 25px;
-    background-size: contain;
+  left: 50%;
+  margin-left: -20px;
+  float: none;
+  border: 2px solid #f4bf4d !important;
+  margin-bottom: 25px;
+  background-size: contain;
 }
 
 .sticky {
-    position: fixed;
-    max-width: 1024px;
-    left: 0px;
-    top: 0;
-    z-index: 100;
-    border-top: 0;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19), 0 1px 8px rgba(0, 0, 0, 0.23) !important;
-    right: 0px;
-    margin: 0 auto;
-    height: 35px;
+  position: fixed;
+  max-width: 1170px;
+  left: 0px;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19), 0 1px 8px rgba(0, 0, 0, 0.23) !important;
+  right: 0px;
+  margin: 0 auto;
+  height: 50px;
 }
-
 
 /**************************************Intro Section********************************************/
 
 .bio-image {
-    margin: 0 auto;
-    border-radius: 7px;
+  margin: 0 auto;
+  border-radius: 7px;
 }
 
 .bio-description {
-    /* font-size: 17px;
-    line-height: 1.5;
-    font-family: 'Crimson Text', serif; */
-    font-size: 19px;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    font-weight: 300;
-
+  font-size: 19px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 300;
 }
 
 .feature-image {
-    width: 50px;
-    height: 50px;
-    margin: 10px auto;
+  width: 50px;
+  height: 50px;
+  margin: 10px auto;
 }
 
 .vcenter {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
-
 
 /**************************************Education & News Section********************************************/
 
 .nav-tabs {
-    border-bottom: 2px solid #DDD;
+  border-bottom: 2px solid #ddd;
 }
 
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:focus,
 .nav-tabs > li.active > a:hover {
-    border-width: 0;
+  border-width: 0;
 }
 
 .nav-tabs > li {
-    width: 50%;
+  width: 50%;
 }
 
 .nav-tabs > li > a {
-    border: none;
-    color: black;
-    text-align: center;
-    font-weight: bold;
-    width: 100%;
+  border: none;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  font-size: 20px;
 }
 
 #right-border {
-    border-right: 2px solid #DDD;
+  border-right: 2px solid #ddd;
 }
 
 .nav-tabs > li.active > a {
-    border: none;
-    color: black;
-    background: transparent;
+  border: none;
+  color: black;
+  background: transparent;
 }
 
 .nav-tabs > li > a:hover {
-    color: grey !important;
-    cursor: auto;
+  color: grey !important;
+  cursor: auto;
 }
 
 .nav-tabs > li > a::after {
-    content: "";
-    background: #1f407a;
-    height: 2px;
-    position: absolute;
-    width: 100%;
-    left: 0px;
-    top: 0px;
-    transition: all 250ms ease 0s;
-    transform: scale(0);
+  content: "";
+  background: #1f407a;
+  height: 2px;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  transition: all 250ms ease 0s;
+  transform: scale(0);
 }
 
 .nav-tabs > li.active > a::after,
 .nav-tabs > li:hover > a::after {
-    transform: scale(1);
+  transform: scale(1);
 }
 
 .tab-nav > li > a::after {
-    background: #21527d none repeat scroll 0% 0%;
-    color: #fff;
+  background: #21527d none repeat scroll 0% 0%;
+  color: #fff;
 }
 
 .tab-pane {
-    padding: 15px 0;
+  padding: 15px 0;
 }
 
 .tab-content {
-    padding: 20px
+  padding: 20px;
 }
 
 .tab-content p {
-    font-size: 15px;
-    margin-bottom: 40px;
+  font-size: 15px;
+  margin-bottom: 40px;
 }
 
 .card {
-    background: #FFF none repeat scroll 0% 0%;
-    margin-bottom: 30px;
-    border-left: 1px solid #DDD;
-    border-right: 1px solid #DDD;
-    border-bottom: 1px solid #DDD;
+  background: #fff none repeat scroll 0% 0%;
+  margin-bottom: 30px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
-
 
 /**************************************Publication Section***********************************************/
 
 .publication-section h3 {
-    margin-top: 0px;
-    font-size: 19px;
-    color: #1F407A;
+  margin-top: 0px;
+  font-size: 19px;
+  color: #1f407a;
 }
 
 .publication-block {
-    margin: 50px 0;
+  margin: 50px 0;
 }
 
 .publication-section p {
-    font-size: 14px;
-    font-weight: 300;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 .publication-section .lead {
-    font-size: 17px;
-    font-weight: 400;
-    margin-bottom: 25px;
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 25px;
 }
-
 
 /**************************************Research Section***********************************************/
 
@@ -374,66 +375,52 @@ hr {
 */
 
 .page_banner {
-    height: 560px;
-    overflow: hidden;
+  height: 560px;
+  overflow: hidden;
 }
 
 #banner {
-    width: 100%;
+  width: 100%;
 }
 
 .research-section h3 {
-    margin-top: 0px;
-    font-size: 19px;
-    margin-bottom: 20px;
+  margin-top: 0px;
+  font-size: 19px;
+  margin-bottom: 20px;
 }
 
 .research-block {
-    margin: 50px 0;
+  margin: 50px 0;
 }
 
 .research-section .research-overview {
-    font-family: 'Crimson Text', serif;
-    text-align: justify;
+  text-align: justify;
 }
 
 .section-title {
-    font-size: 24px !important;
+  font-size: 24px !important;
 }
-
 
 /************************************************Teaching Section**********************************************/
 
-/* 
-.course-overview {
-     font-family: 'Crimson Text', serif; 
-} 
-*/
-
 .teaching-section .course-date p {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .teaching-section .lead {
-    font-size: 16px;
+  font-size: 16px;
 }
-
 
 /*******************************Footer**********************************/
 
 .footer {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .footer p {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .copyright-text {
-    color: grey;
-}
-
-.table{
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+  color: grey;
 }
